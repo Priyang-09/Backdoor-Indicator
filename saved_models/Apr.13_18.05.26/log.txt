@@ -1,0 +1,955 @@
+current path:./saved_models/Apr.13_18.05.26
+start training from the 1st round
+watermarking acc:10.026041666666668, watermarking loss:2.303512712319692, target label (0) wm acc:100.0
+global model on round:1 | benign acc:9.86, benign loss:2.3030454345703126
+global model on round:1 | poisoned acc:0.0, poisoned loss:2.349368798828125
+ 
+Training on global round 1 begins
+There are 0 adversaries in the training for round 1
+ 
+benign lr:0.09995833333333333
+local training for model 24 finishes in 1.1381142139434814 sec
+round:1, local model 24 | l2_norm: 10.149909019470215
+ 
+benign lr:0.09995833333333333
+local training for model 32 finishes in 0.7006204128265381 sec
+round:1, local model 32 | l2_norm: 12.331050872802734
+ 
+benign lr:0.09995833333333333
+local training for model 10 finishes in 0.6527233123779297 sec
+round:1, local model 10 | l2_norm: 11.690133094787598
+ 
+benign lr:0.09995833333333333
+local training for model 40 finishes in 0.7643859386444092 sec
+round:1, local model 40 | l2_norm: 13.298541069030762
+ 
+benign lr:0.09995833333333333
+local training for model 58 finishes in 1.4534096717834473 sec
+round:1, local model 58 | l2_norm: 17.33836555480957
+ 
+benign lr:0.09995833333333333
+local training for model 83 finishes in 1.205111026763916 sec
+round:1, local model 83 | l2_norm: 14.691497802734375
+ 
+benign lr:0.09995833333333333
+local training for model 85 finishes in 1.0300407409667969 sec
+round:1, local model 85 | l2_norm: 13.645310401916504
+ 
+benign lr:0.09995833333333333
+local training for model 18 finishes in 1.0284388065338135 sec
+round:1, local model 18 | l2_norm: 26.773387908935547
+ 
+benign lr:0.09995833333333333
+local training for model 76 finishes in 0.8260080814361572 sec
+round:1, local model 76 | l2_norm: 17.128982543945312
+ 
+benign lr:0.09995833333333333
+local training for model 78 finishes in 0.6846089363098145 sec
+round:1, local model 78 | l2_norm: 11.440460205078125
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:10/10,                     misclassified benign clients:0/10
+current VWM detection threshold: 95
+ 
+global model on round:1 | benign acc:9.99, benign loss:2.305486279296875
+global model on round:1 | poisoned acc:0.0, poisoned loss:2.286240087890625
+saving model: global_model
+watermarking acc:10.15625, watermarking loss:2.305646061897278, target label (7) wm acc:100.0
+global model on round:2 | benign acc:9.99, benign loss:2.3054863037109374
+global model on round:2 | poisoned acc:0.0, poisoned loss:2.286239990234375
+ 
+Training on global round 2 begins
+There are 0 adversaries in the training for round 2
+ 
+benign lr:0.09991666666666667
+local training for model 37 finishes in 1.315107822418213 sec
+round:2, local model 37 | l2_norm: 5.790470600128174
+ 
+benign lr:0.09991666666666667
+local training for model 10 finishes in 0.6452455520629883 sec
+round:2, local model 10 | l2_norm: 4.737011909484863
+ 
+benign lr:0.09991666666666667
+local training for model 28 finishes in 0.9769711494445801 sec
+round:2, local model 28 | l2_norm: 8.892897605895996
+ 
+benign lr:0.09991666666666667
+local training for model 62 finishes in 0.41428542137145996 sec
+round:2, local model 62 | l2_norm: 3.8106439113616943
+ 
+benign lr:0.09991666666666667
+local training for model 85 finishes in 0.8636953830718994 sec
+round:2, local model 85 | l2_norm: 4.682729721069336
+ 
+benign lr:0.09991666666666667
+local training for model 41 finishes in 1.0133731365203857 sec
+round:2, local model 41 | l2_norm: 6.154438495635986
+ 
+benign lr:0.09991666666666667
+local training for model 56 finishes in 1.110133409500122 sec
+round:2, local model 56 | l2_norm: 6.598032474517822
+ 
+benign lr:0.09991666666666667
+local training for model 16 finishes in 1.0034923553466797 sec
+round:2, local model 16 | l2_norm: 5.927278518676758
+ 
+benign lr:0.09991666666666667
+local training for model 58 finishes in 1.3213739395141602 sec
+round:2, local model 58 | l2_norm: 7.139930248260498
+ 
+benign lr:0.09991666666666667
+local training for model 88 finishes in 0.8917450904846191 sec
+round:2, local model 88 | l2_norm: 6.2995758056640625
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:20/20,                     misclassified benign clients:0/20
+current VWM detection threshold: 95
+ 
+global model on round:2 | benign acc:11.67, benign loss:2.31996416015625
+global model on round:2 | poisoned acc:0.0, poisoned loss:2.2273853271484376
+saving model: global_model
+watermarking acc:10.677083333333332, watermarking loss:2.3231097062428794, target label (6) wm acc:68.83
+global model on round:3 | benign acc:11.67, benign loss:2.319964208984375
+global model on round:3 | poisoned acc:0.0, poisoned loss:2.2273697998046873
+ 
+Training on global round 3 begins
+There are 0 adversaries in the training for round 3
+ 
+benign lr:0.099875
+local training for model 23 finishes in 1.263329029083252 sec
+round:3, local model 23 | l2_norm: 5.397908687591553
+ 
+benign lr:0.099875
+local training for model 69 finishes in 0.6357381343841553 sec
+round:3, local model 69 | l2_norm: 3.168895721435547
+ 
+benign lr:0.099875
+local training for model 45 finishes in 1.0770578384399414 sec
+round:3, local model 45 | l2_norm: 5.805419921875
+ 
+benign lr:0.099875
+local training for model 35 finishes in 0.8576254844665527 sec
+round:3, local model 35 | l2_norm: 3.558182716369629
+ 
+benign lr:0.099875
+local training for model 27 finishes in 0.8647298812866211 sec
+round:3, local model 27 | l2_norm: 4.006628513336182
+ 
+benign lr:0.099875
+local training for model 99 finishes in 2.515089273452759 sec
+round:3, local model 99 | l2_norm: 6.660024166107178
+ 
+benign lr:0.099875
+local training for model 63 finishes in 0.5088152885437012 sec
+round:3, local model 63 | l2_norm: 2.6767914295196533
+ 
+benign lr:0.099875
+local training for model 71 finishes in 0.6402688026428223 sec
+round:3, local model 71 | l2_norm: 2.6944000720977783
+ 
+benign lr:0.099875
+local training for model 40 finishes in 0.7590947151184082 sec
+round:3, local model 40 | l2_norm: 3.5452661514282227
+ 
+benign lr:0.099875
+local training for model 92 finishes in 0.9758000373840332 sec
+round:3, local model 92 | l2_norm: 4.641654014587402
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:30/30,                     misclassified benign clients:0/30
+current VWM detection threshold: 95
+ 
+global model on round:3 | benign acc:10.0, benign loss:2.3295747314453124
+global model on round:3 | poisoned acc:0.0, poisoned loss:2.3243197998046874
+saving model: global_model
+watermarking acc:10.026041666666668, watermarking loss:2.343185861905416, target label (3) wm acc:100.0
+global model on round:4 | benign acc:10.0, benign loss:2.3295746826171877
+global model on round:4 | poisoned acc:0.0, poisoned loss:2.3243525146484374
+ 
+Training on global round 4 begins
+There are 0 adversaries in the training for round 4
+ 
+benign lr:0.09983333333333334
+local training for model 22 finishes in 0.9117164611816406 sec
+round:4, local model 22 | l2_norm: 3.9450290203094482
+ 
+benign lr:0.09983333333333334
+local training for model 55 finishes in 1.570432186126709 sec
+round:4, local model 55 | l2_norm: 4.553847789764404
+ 
+benign lr:0.09983333333333334
+local training for model 45 finishes in 1.068021297454834 sec
+round:4, local model 45 | l2_norm: 7.1125874519348145
+ 
+benign lr:0.09983333333333334
+local training for model 60 finishes in 1.9897353649139404 sec
+round:4, local model 60 | l2_norm: 5.471099853515625
+ 
+benign lr:0.09983333333333334
+local training for model 0 finishes in 0.9057276248931885 sec
+model:0, round:4 | benign acc:16.81, benign loss:2.5173423095703127
+model:0, round:4 | poisoned acc:0.0, poisoned loss:3.1893262451171873
+ 
+round:4, local model 0 | l2_norm: 2.539377450942993
+ 
+benign lr:0.09983333333333334
+local training for model 62 finishes in 0.4061095714569092 sec
+round:4, local model 62 | l2_norm: 2.7739200592041016
+ 
+benign lr:0.09983333333333334
+local training for model 64 finishes in 0.8123888969421387 sec
+round:4, local model 64 | l2_norm: 2.520566701889038
+ 
+benign lr:0.09983333333333334
+local training for model 98 finishes in 1.2238383293151855 sec
+round:4, local model 98 | l2_norm: 3.788630962371826
+ 
+benign lr:0.09983333333333334
+local training for model 1 finishes in 0.9814662933349609 sec
+round:4, local model 1 | l2_norm: 4.580163955688477
+ 
+benign lr:0.09983333333333334
+local training for model 56 finishes in 1.1217350959777832 sec
+round:4, local model 56 | l2_norm: 4.217276096343994
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:40/40,                     misclassified benign clients:0/40
+current VWM detection threshold: 95
+ 
+global model on round:4 | benign acc:10.0, benign loss:2.338902197265625
+global model on round:4 | poisoned acc:0.0, poisoned loss:2.2825183349609377
+saving model: global_model
+watermarking acc:10.026041666666668, watermarking loss:2.3663280606269836, target label (3) wm acc:100.0
+global model on round:5 | benign acc:10.0, benign loss:2.3389021728515624
+global model on round:5 | poisoned acc:0.0, poisoned loss:2.2823256591796874
+ 
+Training on global round 5 begins
+There are 0 adversaries in the training for round 5
+ 
+benign lr:0.09979166666666667
+local training for model 94 finishes in 0.9667510986328125 sec
+round:5, local model 94 | l2_norm: 3.9071600437164307
+ 
+benign lr:0.09979166666666667
+local training for model 91 finishes in 0.6653025150299072 sec
+round:5, local model 91 | l2_norm: 2.4179904460906982
+ 
+benign lr:0.09979166666666667
+local training for model 38 finishes in 0.6601872444152832 sec
+round:5, local model 38 | l2_norm: 2.1466152667999268
+ 
+benign lr:0.09979166666666667
+local training for model 4 finishes in 0.8998334407806396 sec
+round:5, local model 4 | l2_norm: 2.783031940460205
+ 
+benign lr:0.09979166666666667
+local training for model 20 finishes in 0.761145830154419 sec
+round:5, local model 20 | l2_norm: 2.491192579269409
+ 
+benign lr:0.09979166666666667
+local training for model 46 finishes in 0.895275354385376 sec
+round:5, local model 46 | l2_norm: 3.4439518451690674
+ 
+benign lr:0.09979166666666667
+local training for model 35 finishes in 0.8479743003845215 sec
+round:5, local model 35 | l2_norm: 3.084197759628296
+ 
+benign lr:0.09979166666666667
+local training for model 43 finishes in 0.6944406032562256 sec
+round:5, local model 43 | l2_norm: 1.9902706146240234
+ 
+benign lr:0.09979166666666667
+local training for model 53 finishes in 1.2094993591308594 sec
+round:5, local model 53 | l2_norm: 3.006648063659668
+ 
+benign lr:0.09979166666666667
+local training for model 5 finishes in 0.6426615715026855 sec
+round:5, local model 5 | l2_norm: 2.7777888774871826
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:50/50,                     misclassified benign clients:0/50
+current VWM detection threshold: 95
+ 
+global model on round:5 | benign acc:13.66, benign loss:2.3919210693359374
+global model on round:5 | poisoned acc:0.0, poisoned loss:2.553225
+saving model: global_model
+watermarking acc:10.677083333333332, watermarking loss:2.4642345309257507, target label (3) wm acc:71.43
+global model on round:6 | benign acc:13.66, benign loss:2.391921044921875
+global model on round:6 | poisoned acc:0.0, poisoned loss:2.5534548828125
+ 
+Training on global round 6 begins
+There are 0 adversaries in the training for round 6
+ 
+benign lr:0.09975
+local training for model 93 finishes in 0.6588296890258789 sec
+round:6, local model 93 | l2_norm: 2.4765138626098633
+ 
+benign lr:0.09975
+local training for model 29 finishes in 0.42302799224853516 sec
+round:6, local model 29 | l2_norm: 1.6096471548080444
+ 
+benign lr:0.09975
+local training for model 63 finishes in 0.388195276260376 sec
+round:6, local model 63 | l2_norm: 2.120375394821167
+ 
+benign lr:0.09975
+local training for model 8 finishes in 0.6593246459960938 sec
+round:6, local model 8 | l2_norm: 9.682990074157715
+ 
+benign lr:0.09975
+local training for model 62 finishes in 0.4669950008392334 sec
+round:6, local model 62 | l2_norm: 1.9413535594940186
+ 
+benign lr:0.09975
+local training for model 57 finishes in 1.2410614490509033 sec
+round:6, local model 57 | l2_norm: 3.795388698577881
+ 
+benign lr:0.09975
+local training for model 70 finishes in 0.8199317455291748 sec
+round:6, local model 70 | l2_norm: 3.970548391342163
+ 
+benign lr:0.09975
+local training for model 34 finishes in 1.0480506420135498 sec
+round:6, local model 34 | l2_norm: 2.805354595184326
+ 
+benign lr:0.09975
+local training for model 30 finishes in 0.766089916229248 sec
+round:6, local model 30 | l2_norm: 4.044576168060303
+ 
+benign lr:0.09975
+local training for model 11 finishes in 1.1383235454559326 sec
+round:6, local model 11 | l2_norm: 4.1788153648376465
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:60/60,                     misclassified benign clients:0/60
+current VWM detection threshold: 95
+ 
+global model on round:6 | benign acc:10.81, benign loss:2.345712841796875
+global model on round:6 | poisoned acc:0.0, poisoned loss:2.3598834716796877
+saving model: global_model
+watermarking acc:9.765625, watermarking loss:2.448518931865692, target label (3) wm acc:96.1
+global model on round:7 | benign acc:10.81, benign loss:2.345712841796875
+global model on round:7 | poisoned acc:0.0, poisoned loss:2.3598010009765624
+ 
+Training on global round 7 begins
+There are 0 adversaries in the training for round 7
+ 
+benign lr:0.09970833333333334
+local training for model 44 finishes in 1.093325138092041 sec
+round:7, local model 44 | l2_norm: 6.821966648101807
+ 
+benign lr:0.09970833333333334
+local training for model 26 finishes in 0.6612870693206787 sec
+round:7, local model 26 | l2_norm: 3.3816497325897217
+ 
+benign lr:0.09970833333333334
+local training for model 49 finishes in 1.1619844436645508 sec
+round:7, local model 49 | l2_norm: 4.663814067840576
+ 
+benign lr:0.09970833333333334
+local training for model 73 finishes in 0.8431484699249268 sec
+round:7, local model 73 | l2_norm: 6.31756067276001
+ 
+benign lr:0.09970833333333334
+local training for model 41 finishes in 1.0194032192230225 sec
+round:7, local model 41 | l2_norm: 2.817868709564209
+ 
+benign lr:0.09970833333333334
+local training for model 45 finishes in 1.0737864971160889 sec
+round:7, local model 45 | l2_norm: 5.17822790145874
+ 
+benign lr:0.09970833333333334
+local training for model 19 finishes in 0.9897007942199707 sec
+round:7, local model 19 | l2_norm: 3.6160550117492676
+ 
+benign lr:0.09970833333333334
+local training for model 66 finishes in 0.8653101921081543 sec
+round:7, local model 66 | l2_norm: 3.2281267642974854
+ 
+benign lr:0.09970833333333334
+local training for model 63 finishes in 0.3916611671447754 sec
+round:7, local model 63 | l2_norm: 2.181666135787964
+ 
+benign lr:0.09970833333333334
+local training for model 60 finishes in 1.9900479316711426 sec
+round:7, local model 60 | l2_norm: 5.093689918518066
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:70/70,                     misclassified benign clients:0/70
+current VWM detection threshold: 95
+ 
+global model on round:7 | benign acc:13.100000000000001, benign loss:2.3042678466796875
+global model on round:7 | poisoned acc:0.0, poisoned loss:1.9620965576171876
+saving model: global_model
+watermarking acc:9.635416666666668, watermarking loss:2.455315589904785, target label (3) wm acc:87.01
+global model on round:8 | benign acc:13.100000000000001, benign loss:2.3042678466796875
+global model on round:8 | poisoned acc:0.0, poisoned loss:1.961926171875
+ 
+Training on global round 8 begins
+There are 0 adversaries in the training for round 8
+ 
+benign lr:0.09966666666666667
+local training for model 3 finishes in 0.7951860427856445 sec
+round:8, local model 3 | l2_norm: 2.4730827808380127
+ 
+benign lr:0.09966666666666667
+local training for model 66 finishes in 0.849043607711792 sec
+round:8, local model 66 | l2_norm: 3.000054121017456
+ 
+benign lr:0.09966666666666667
+local training for model 53 finishes in 1.0161030292510986 sec
+round:8, local model 53 | l2_norm: 2.7401390075683594
+ 
+benign lr:0.09966666666666667
+local training for model 76 finishes in 0.7440652847290039 sec
+round:8, local model 76 | l2_norm: 4.3099751472473145
+ 
+benign lr:0.09966666666666667
+local training for model 89 finishes in 0.9194440841674805 sec
+round:8, local model 89 | l2_norm: 2.671976089477539
+ 
+benign lr:0.09966666666666667
+local training for model 30 finishes in 0.8419961929321289 sec
+round:8, local model 30 | l2_norm: 2.6391241550445557
+ 
+benign lr:0.09966666666666667
+local training for model 36 finishes in 1.3982429504394531 sec
+round:8, local model 36 | l2_norm: 6.257775783538818
+ 
+benign lr:0.09966666666666667
+local training for model 91 finishes in 0.6516118049621582 sec
+round:8, local model 91 | l2_norm: 2.018617868423462
+ 
+benign lr:0.09966666666666667
+local training for model 65 finishes in 0.5469357967376709 sec
+round:8, local model 65 | l2_norm: 1.4808721542358398
+ 
+benign lr:0.09966666666666667
+local training for model 10 finishes in 0.6376128196716309 sec
+round:8, local model 10 | l2_norm: 1.9769020080566406
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:80/80,                     misclassified benign clients:0/80
+current VWM detection threshold: 95
+ 
+global model on round:8 | benign acc:16.34, benign loss:2.2110218505859374
+global model on round:8 | poisoned acc:0.0, poisoned loss:2.009430871582031
+saving model: global_model
+watermarking acc:9.635416666666668, watermarking loss:2.462486505508423, target label (3) wm acc:81.82
+global model on round:9 | benign acc:16.34, benign loss:2.211021875
+global model on round:9 | poisoned acc:0.0, poisoned loss:2.009630529785156
+ 
+Training on global round 9 begins
+There are 0 adversaries in the training for round 9
+ 
+benign lr:0.099625
+local training for model 32 finishes in 0.8140032291412354 sec
+round:9, local model 32 | l2_norm: 2.337292432785034
+ 
+benign lr:0.099625
+local training for model 84 finishes in 1.1888184547424316 sec
+round:9, local model 84 | l2_norm: 3.1367151737213135
+ 
+benign lr:0.099625
+local training for model 71 finishes in 0.6086223125457764 sec
+round:9, local model 71 | l2_norm: 2.2509753704071045
+ 
+benign lr:0.099625
+local training for model 55 finishes in 1.4382116794586182 sec
+round:9, local model 55 | l2_norm: 4.058141708374023
+ 
+benign lr:0.099625
+local training for model 19 finishes in 0.944683313369751 sec
+round:9, local model 19 | l2_norm: 3.300560474395752
+ 
+benign lr:0.099625
+local training for model 78 finishes in 0.664160966873169 sec
+round:9, local model 78 | l2_norm: 2.8418071269989014
+ 
+benign lr:0.099625
+local training for model 35 finishes in 0.8505003452301025 sec
+round:9, local model 35 | l2_norm: 2.7058017253875732
+ 
+benign lr:0.099625
+local training for model 9 finishes in 0.9819231033325195 sec
+round:9, local model 9 | l2_norm: 3.699221611022949
+ 
+benign lr:0.099625
+local training for model 73 finishes in 0.8446617126464844 sec
+round:9, local model 73 | l2_norm: 3.6215157508850098
+ 
+benign lr:0.099625
+local training for model 94 finishes in 0.9683847427368164 sec
+round:9, local model 94 | l2_norm: 3.5513460636138916
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:90/90,                     misclassified benign clients:0/90
+current VWM detection threshold: 95
+ 
+global model on round:9 | benign acc:15.39, benign loss:2.25349443359375
+global model on round:9 | poisoned acc:0.0, poisoned loss:2.134278271484375
+saving model: global_model
+watermarking acc:9.505208333333332, watermarking loss:2.617995341618856, target label (3) wm acc:75.32
+global model on round:10 | benign acc:15.39, benign loss:2.2534944580078125
+global model on round:10 | poisoned acc:0.0, poisoned loss:2.134294287109375
+ 
+Training on global round 10 begins
+There are 0 adversaries in the training for round 10
+ 
+benign lr:0.09958333333333333
+local training for model 42 finishes in 0.9521265029907227 sec
+round:10, local model 42 | l2_norm: 2.7912023067474365
+ 
+benign lr:0.09958333333333333
+local training for model 39 finishes in 0.8870019912719727 sec
+round:10, local model 39 | l2_norm: 2.725912570953369
+ 
+benign lr:0.09958333333333333
+local training for model 30 finishes in 0.7049243450164795 sec
+round:10, local model 30 | l2_norm: 5.991687297821045
+ 
+benign lr:0.09958333333333333
+local training for model 56 finishes in 1.1040539741516113 sec
+round:10, local model 56 | l2_norm: 3.891864776611328
+ 
+benign lr:0.09958333333333333
+local training for model 46 finishes in 0.8537161350250244 sec
+round:10, local model 46 | l2_norm: 3.0963499546051025
+ 
+benign lr:0.09958333333333333
+local training for model 47 finishes in 1.3165414333343506 sec
+round:10, local model 47 | l2_norm: 4.03734016418457
+ 
+benign lr:0.09958333333333333
+local training for model 67 finishes in 0.8355355262756348 sec
+round:10, local model 67 | l2_norm: 2.6927905082702637
+ 
+benign lr:0.09958333333333333
+local training for model 53 finishes in 1.1850481033325195 sec
+round:10, local model 53 | l2_norm: 2.954129934310913
+ 
+benign lr:0.09958333333333333
+local training for model 62 finishes in 0.5117194652557373 sec
+round:10, local model 62 | l2_norm: 2.006829261779785
+ 
+benign lr:0.09958333333333333
+local training for model 43 finishes in 0.6918849945068359 sec
+round:10, local model 43 | l2_norm: 2.3685710430145264
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:100/100,                     misclassified benign clients:0/100
+current VWM detection threshold: 95
+ 
+global model on round:10 | benign acc:14.27, benign loss:2.2613210205078125
+global model on round:10 | poisoned acc:0.0, poisoned loss:2.6467019287109377
+saving model: global_model
+watermarking acc:9.505208333333332, watermarking loss:2.6321565310160318, target label (3) wm acc:83.12
+global model on round:11 | benign acc:14.27, benign loss:2.2613210205078125
+global model on round:11 | poisoned acc:0.0, poisoned loss:2.6459429931640623
+ 
+Training on global round 11 begins
+There are 0 adversaries in the training for round 11
+ 
+benign lr:0.09954166666666667
+local training for model 72 finishes in 0.7708480358123779 sec
+round:11, local model 72 | l2_norm: 2.8058228492736816
+ 
+benign lr:0.09954166666666667
+local training for model 19 finishes in 1.0441293716430664 sec
+round:11, local model 19 | l2_norm: 3.3376100063323975
+ 
+benign lr:0.09954166666666667
+local training for model 21 finishes in 0.6713740825653076 sec
+round:11, local model 21 | l2_norm: 2.126821517944336
+ 
+benign lr:0.09954166666666667
+local training for model 5 finishes in 0.5685162544250488 sec
+round:11, local model 5 | l2_norm: 3.225151777267456
+ 
+benign lr:0.09954166666666667
+local training for model 15 finishes in 1.175537347793579 sec
+round:11, local model 15 | l2_norm: 4.024230003356934
+ 
+benign lr:0.09954166666666667
+local training for model 73 finishes in 0.8318095207214355 sec
+round:11, local model 73 | l2_norm: 3.0216877460479736
+ 
+benign lr:0.09954166666666667
+local training for model 38 finishes in 0.6515278816223145 sec
+round:11, local model 38 | l2_norm: 2.0550293922424316
+ 
+benign lr:0.09954166666666667
+local training for model 55 finishes in 1.4204249382019043 sec
+round:11, local model 55 | l2_norm: 4.336513519287109
+ 
+benign lr:0.09954166666666667
+local training for model 11 finishes in 1.1274113655090332 sec
+round:11, local model 11 | l2_norm: 3.7699527740478516
+ 
+benign lr:0.09954166666666667
+local training for model 78 finishes in 0.666501522064209 sec
+round:11, local model 78 | l2_norm: 2.396838426589966
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:110/110,                     misclassified benign clients:0/110
+current VWM detection threshold: 95
+ 
+global model on round:11 | benign acc:20.89, benign loss:2.0543054443359376
+global model on round:11 | poisoned acc:0.0, poisoned loss:2.26411396484375
+saving model: global_model
+watermarking acc:10.807291666666668, watermarking loss:2.617461919784546, target label (3) wm acc:70.13
+global model on round:12 | benign acc:20.89, benign loss:2.0543054321289063
+global model on round:12 | poisoned acc:0.0, poisoned loss:2.2644288818359377
+ 
+Training on global round 12 begins
+There are 0 adversaries in the training for round 12
+ 
+benign lr:0.0995
+local training for model 94 finishes in 0.9600253105163574 sec
+round:12, local model 94 | l2_norm: 3.3733325004577637
+ 
+benign lr:0.0995
+local training for model 1 finishes in 0.9583556652069092 sec
+round:12, local model 1 | l2_norm: 8.941740036010742
+ 
+benign lr:0.0995
+local training for model 81 finishes in 0.7660713195800781 sec
+round:12, local model 81 | l2_norm: 2.5551164150238037
+ 
+benign lr:0.0995
+local training for model 29 finishes in 0.4006211757659912 sec
+round:12, local model 29 | l2_norm: 1.7233141660690308
+ 
+benign lr:0.0995
+local training for model 14 finishes in 0.4140808582305908 sec
+round:12, local model 14 | l2_norm: 2.576174736022949
+ 
+benign lr:0.0995
+local training for model 6 finishes in 0.8634259700775146 sec
+round:12, local model 6 | l2_norm: 3.194790840148926
+ 
+benign lr:0.0995
+local training for model 88 finishes in 0.8600239753723145 sec
+round:12, local model 88 | l2_norm: 2.6936392784118652
+ 
+benign lr:0.0995
+local training for model 86 finishes in 0.8823709487915039 sec
+round:12, local model 86 | l2_norm: 2.990818977355957
+ 
+benign lr:0.0995
+local training for model 3 finishes in 0.7425346374511719 sec
+round:12, local model 3 | l2_norm: 2.460803508758545
+ 
+benign lr:0.0995
+local training for model 31 finishes in 0.9668588638305664 sec
+round:12, local model 31 | l2_norm: 3.8086612224578857
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:120/120,                     misclassified benign clients:0/120
+current VWM detection threshold: 95
+ 
+global model on round:12 | benign acc:26.479999999999997, benign loss:1.964280810546875
+global model on round:12 | poisoned acc:0.0, poisoned loss:2.60104619140625
+saving model: global_model
+watermarking acc:10.9375, watermarking loss:2.551801383495331, target label (6) wm acc:48.05
+global model on round:13 | benign acc:26.479999999999997, benign loss:1.9642807983398438
+global model on round:13 | poisoned acc:0.0, poisoned loss:2.601771533203125
+ 
+Training on global round 13 begins
+There are 0 adversaries in the training for round 13
+ 
+benign lr:0.09945833333333334
+local training for model 51 finishes in 0.966132402420044 sec
+round:13, local model 51 | l2_norm: 3.422086477279663
+ 
+benign lr:0.09945833333333334
+local training for model 58 finishes in 1.2936277389526367 sec
+round:13, local model 58 | l2_norm: 3.9662344455718994
+ 
+benign lr:0.09945833333333334
+local training for model 19 finishes in 0.9413316249847412 sec
+round:13, local model 19 | l2_norm: 2.9603917598724365
+ 
+benign lr:0.09945833333333334
+local training for model 52 finishes in 0.5302639007568359 sec
+round:13, local model 52 | l2_norm: 2.91636323928833
+ 
+benign lr:0.09945833333333334
+local training for model 86 finishes in 0.8956630229949951 sec
+round:13, local model 86 | l2_norm: 2.798973798751831
+ 
+benign lr:0.09945833333333334
+local training for model 82 finishes in 1.125361680984497 sec
+round:13, local model 82 | l2_norm: 3.7225942611694336
+ 
+benign lr:0.09945833333333334
+local training for model 49 finishes in 1.4141044616699219 sec
+round:13, local model 49 | l2_norm: 10.671453475952148
+ 
+benign lr:0.09945833333333334
+local training for model 31 finishes in 0.9837195873260498 sec
+round:13, local model 31 | l2_norm: 4.20224142074585
+ 
+benign lr:0.09945833333333334
+local training for model 38 finishes in 0.6389174461364746 sec
+round:13, local model 38 | l2_norm: 2.633397340774536
+ 
+benign lr:0.09945833333333334
+local training for model 2 finishes in 0.5560574531555176 sec
+round:13, local model 2 | l2_norm: 2.161126136779785
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:130/130,                     misclassified benign clients:0/130
+current VWM detection threshold: 95
+ 
+global model on round:13 | benign acc:19.37, benign loss:2.11282783203125
+global model on round:13 | poisoned acc:0.0, poisoned loss:2.709465673828125
+saving model: global_model
+watermarking acc:10.286458333333332, watermarking loss:2.6202029387156167, target label (6) wm acc:51.95
+global model on round:14 | benign acc:19.37, benign loss:2.1128278564453127
+global model on round:14 | poisoned acc:0.0, poisoned loss:2.709583349609375
+ 
+Training on global round 14 begins
+There are 0 adversaries in the training for round 14
+ 
+benign lr:0.09941666666666668
+local training for model 58 finishes in 1.608271598815918 sec
+round:14, local model 58 | l2_norm: 3.7704944610595703
+ 
+benign lr:0.09941666666666668
+local training for model 74 finishes in 0.9661600589752197 sec
+round:14, local model 74 | l2_norm: 2.6230576038360596
+ 
+benign lr:0.09941666666666668
+local training for model 99 finishes in 1.626920223236084 sec
+round:14, local model 99 | l2_norm: 4.454111576080322
+ 
+benign lr:0.09941666666666668
+local training for model 26 finishes in 0.6729755401611328 sec
+round:14, local model 26 | l2_norm: 3.218853712081909
+ 
+benign lr:0.09941666666666668
+local training for model 55 finishes in 1.4447083473205566 sec
+round:14, local model 55 | l2_norm: 3.9456288814544678
+ 
+benign lr:0.09941666666666668
+local training for model 84 finishes in 0.9824495315551758 sec
+round:14, local model 84 | l2_norm: 3.1944591999053955
+ 
+benign lr:0.09941666666666668
+local training for model 2 finishes in 0.562279224395752 sec
+round:14, local model 2 | l2_norm: 2.0585544109344482
+ 
+benign lr:0.09941666666666668
+local training for model 80 finishes in 1.3450417518615723 sec
+round:14, local model 80 | l2_norm: 3.8668251037597656
+ 
+benign lr:0.09941666666666668
+local training for model 94 finishes in 0.9808945655822754 sec
+round:14, local model 94 | l2_norm: 3.5070109367370605
+ 
+benign lr:0.09941666666666668
+local training for model 50 finishes in 0.8455142974853516 sec
+round:14, local model 50 | l2_norm: 6.353994846343994
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:140/140,                     misclassified benign clients:0/140
+current VWM detection threshold: 95
+ 
+global model on round:14 | benign acc:22.86, benign loss:2.021340710449219
+global model on round:14 | poisoned acc:0.0, poisoned loss:2.040838537597656
+saving model: global_model
+watermarking acc:11.197916666666668, watermarking loss:2.6672248045603433, target label (6) wm acc:41.56
+global model on round:15 | benign acc:22.86, benign loss:2.021340771484375
+global model on round:15 | poisoned acc:0.0, poisoned loss:2.042311669921875
+ 
+Training on global round 15 begins
+There are 0 adversaries in the training for round 15
+ 
+benign lr:0.099375
+local training for model 16 finishes in 1.0182383060455322 sec
+round:15, local model 16 | l2_norm: 2.719883680343628
+ 
+benign lr:0.099375
+local training for model 55 finishes in 1.44321870803833 sec
+round:15, local model 55 | l2_norm: 3.655261754989624
+ 
+benign lr:0.099375
+local training for model 8 finishes in 0.6143672466278076 sec
+round:15, local model 8 | l2_norm: 2.663888454437256
+ 
+benign lr:0.099375
+local training for model 13 finishes in 0.7741653919219971 sec
+round:15, local model 13 | l2_norm: 3.0837690830230713
+ 
+benign lr:0.099375
+local training for model 90 finishes in 1.0239965915679932 sec
+round:15, local model 90 | l2_norm: 3.2443137168884277
+ 
+benign lr:0.099375
+local training for model 32 finishes in 0.817559003829956 sec
+round:15, local model 32 | l2_norm: 2.6131434440612793
+ 
+benign lr:0.099375
+local training for model 83 finishes in 1.1953060626983643 sec
+round:15, local model 83 | l2_norm: 3.0234904289245605
+ 
+benign lr:0.099375
+local training for model 24 finishes in 0.7284855842590332 sec
+round:15, local model 24 | l2_norm: 1.9804607629776
+ 
+benign lr:0.099375
+local training for model 75 finishes in 0.960881233215332 sec
+round:15, local model 75 | l2_norm: 3.251718759536743
+ 
+benign lr:0.099375
+local training for model 47 finishes in 1.3188199996948242 sec
+round:15, local model 47 | l2_norm: 3.7856180667877197
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:150/150,                     misclassified benign clients:0/150
+current VWM detection threshold: 95
+ 
+global model on round:15 | benign acc:26.33, benign loss:1.9371475219726562
+global model on round:15 | poisoned acc:0.0, poisoned loss:2.05110810546875
+saving model: global_model
+watermarking acc:10.15625, watermarking loss:2.634387791156769, target label (3) wm acc:41.56
+global model on round:16 | benign acc:26.33, benign loss:1.9371475219726562
+global model on round:16 | poisoned acc:0.0, poisoned loss:2.0524414306640626
+ 
+Training on global round 16 begins
+There are 0 adversaries in the training for round 16
+ 
+benign lr:0.09933333333333333
+local training for model 26 finishes in 0.7772130966186523 sec
+round:16, local model 26 | l2_norm: 3.1186745166778564
+ 
+benign lr:0.09933333333333333
+local training for model 88 finishes in 1.0810725688934326 sec
+round:16, local model 88 | l2_norm: 2.951995611190796
+ 
+benign lr:0.09933333333333333
+local training for model 98 finishes in 1.2269976139068604 sec
+round:16, local model 98 | l2_norm: 3.495056629180908
+ 
+benign lr:0.09933333333333333
+local training for model 6 finishes in 0.8868434429168701 sec
+round:16, local model 6 | l2_norm: 3.493366241455078
+ 
+benign lr:0.09933333333333333
+local training for model 21 finishes in 0.5366556644439697 sec
+round:16, local model 21 | l2_norm: 1.8223315477371216
+ 
+benign lr:0.09933333333333333
+local training for model 45 finishes in 1.0867962837219238 sec
+round:16, local model 45 | l2_norm: 9.035953521728516
+ 
+benign lr:0.09933333333333333
+local training for model 89 finishes in 0.7707967758178711 sec
+round:16, local model 89 | l2_norm: 2.869692325592041
+ 
+benign lr:0.09933333333333333
+local training for model 85 finishes in 0.8865799903869629 sec
+round:16, local model 85 | l2_norm: 3.357776165008545
+ 
+benign lr:0.09933333333333333
+local training for model 68 finishes in 0.9373111724853516 sec
+round:16, local model 68 | l2_norm: 2.7695438861846924
+ 
+benign lr:0.09933333333333333
+local training for model 33 finishes in 1.087707757949829 sec
+round:16, local model 33 | l2_norm: 50.640201568603516
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:160/160,                     misclassified benign clients:0/160
+current VWM detection threshold: 95
+ 
+global model on round:16 | benign acc:13.100000000000001, benign loss:2.3525926513671873
+global model on round:16 | poisoned acc:0.0, poisoned loss:1.8685800415039062
+saving model: global_model
+watermarking acc:9.895833333333332, watermarking loss:2.6379142006238303, target label (5) wm acc:83.12
+global model on round:17 | benign acc:13.100000000000001, benign loss:2.3525926025390627
+global model on round:17 | poisoned acc:0.0, poisoned loss:1.8684056884765625
+ 
+Training on global round 17 begins
+There are 0 adversaries in the training for round 17
+ 
+benign lr:0.09929166666666667
+local training for model 64 finishes in 0.8053781986236572 sec
+round:17, local model 64 | l2_norm: 2.2992100715637207
+ 
+benign lr:0.09929166666666667
+local training for model 80 finishes in 1.3749010562896729 sec
+round:17, local model 80 | l2_norm: 3.514098882675171
+ 
+benign lr:0.09929166666666667
+local training for model 88 finishes in 0.8875787258148193 sec
+round:17, local model 88 | l2_norm: 3.041193723678589
+ 
+benign lr:0.09929166666666667
+local training for model 50 finishes in 0.8616108894348145 sec
+round:17, local model 50 | l2_norm: 5.900467395782471
+ 
+benign lr:0.09929166666666667
+local training for model 37 finishes in 1.016559362411499 sec
+round:17, local model 37 | l2_norm: 3.536771535873413
+ 
+benign lr:0.09929166666666667
+local training for model 6 finishes in 1.0446491241455078 sec
+round:17, local model 6 | l2_norm: 3.5662500858306885
+ 
+benign lr:0.09929166666666667
+local training for model 92 finishes in 1.2187700271606445 sec
+round:17, local model 92 | l2_norm: 3.2557897567749023
+ 
+benign lr:0.09929166666666667
+local training for model 62 finishes in 0.4242391586303711 sec
+round:17, local model 62 | l2_norm: 2.2206835746765137
+ 
+benign lr:0.09929166666666667
+local training for model 95 finishes in 0.44571852684020996 sec
+round:17, local model 95 | l2_norm: 1.48392915725708
+ 
+benign lr:0.09929166666666667
+local training for model 49 finishes in 1.2119591236114502 sec
+round:17, local model 49 | l2_norm: 3.856414794921875
+ 
+Norm clip: dont clip in this round
+aggregated_model:[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+correctly detected malicious clients:0/0,                     undetected malicious clients:0/0
+correctly detected benign clients:170/170,                     misclassified benign clients:0/170
+current VWM detection threshold: 95
+ 
+global model on round:17 | benign acc:19.259999999999998, benign loss:2.25191123046875
